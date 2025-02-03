@@ -1,0 +1,89 @@
+/* body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #0056b3;
+}
+
+input.ezoza {
+  border-color: #FFC107;
+}
+
+p {
+  color: #333;
+  font-size: 16px;
+  text-align: center;
+} */
+
+/* .root {
+  display: none;
+} */
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #ff7b73;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+input {
+  font-size: 16px;
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 20px;
+  width: 500px;
+  outline: none;
+
+  /* margin: 0 auto; */
+  /* width: 200px; */
+}
+
+button {
+  transform: translateX(-100px);
+  padding: 6px 16px;
+  border: none;
+  background-color: #ff7b73;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #f7645c;
+}
+
+p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
