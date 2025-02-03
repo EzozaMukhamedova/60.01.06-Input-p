@@ -37,7 +37,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="main">
       <p>{displayedText ? displayedText : "Yozganingiz chiqadi!"}</p>
       <div className="input-wrapper">
         <input
