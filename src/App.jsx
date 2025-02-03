@@ -39,13 +39,15 @@ function App() {
   return (
     <div>
       <p>{displayedText ? displayedText : "Yozganingiz chiqadi!"}</p>
-      <input
-        type="text"
-        placeholder="nimadur yozing..."
-        value={text}
-        onChange={handleInputChange}
-      />
-      <button onClick={handleButtonClick}>Bosing</button>
+      <div className="input-wrapper">
+        <input
+          type="text"
+          placeholder="nimadur yozing..."
+          value={text}
+          onChange={handleInputChange}
+        />
+        <button onClick={handleButtonClick}>Bosing</button>
+      </div>
     </div>
   );
 }
